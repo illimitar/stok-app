@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "users": [
+    {
+        "firstName": "Tommy",
+        "lastName": "Maintz",
+        "age": 24,
+        "eyeColor": "green"
+    },
+    {
+        "firstName": "Aaron",
+        "lastName": "Conran",
+        "age": 26,
+        "eyeColor": "blue"
+    },
+    {
+        "firstName": "Jamie",
+        "lastName": "Avins",
+        "age": 37,
+        "eyeColor": "brown"
+    }
+    ]
+}
