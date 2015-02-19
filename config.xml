@@ -39,7 +39,7 @@
 
     <!-- Plugins can also be added here. -->
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.file.FileUtils" />
+    <gap:plugin name="org.apache.cordova.file" />
 	
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root" />
