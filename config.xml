@@ -39,18 +39,13 @@
 
     <!-- Plugins can also be added here. -->
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file.FileUtils" />
 	
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root" />
     <preference name="permissions" value="none"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
     <feature name="http://api.phonegap.com/1.0/file-transfer"/>
-
-      <feature name="debug-server" required="true">
-    <param name="domain" value="http://192.168.0.21:8080"/>
-    <param name="key" value="fff67e82-ae23-444e-94d3-9eaf0f1f0b91"/>
-  </feature>
 
 
 
